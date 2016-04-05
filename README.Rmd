@@ -1,6 +1,6 @@
 ---
 title: "Problem set 4"
-author: "Your name here"
+author: "Randi Johnson"
 date: "`r Sys.Date()`"
 ---
 
@@ -48,6 +48,8 @@ your trackline should look something like this (all on one line):
 ```
 track type=bedGraph bigDataUrl="http://<username>.github.io/<repo name>/path/to/bw color=255,0,0 visiblity=full name='chip data' description='chip description'
 ```
+https://genome.ucsc.edu/cgi-bin/hgCustom
+
 
 ### Peak calling
 
@@ -77,3 +79,28 @@ meme-get-motif -id 1 < meme.txt
 ```
 
 Copy the numeric matrix into the the search box on the tomtom site and report which motif it matches.
+
+Matrix:
+
+ 0.160160  0.330330  0.191191  0.318318
+ 0.319319  0.213213  0.265265  0.202202
+ 0.141141  0.334334  0.285285  0.239239
+ 0.156156  0.312312  0.197197  0.334334
+ 0.193193  0.109109  0.533534  0.164164
+ 0.102102  0.757758  0.074074  0.066066
+ 0.022022  0.959960  0.000000  0.018018
+ 0.480480  0.348348  0.025025  0.146146
+ 0.026026  0.593594  0.174174  0.206206
+ 0.062062  0.755756  0.023023  0.159159
+ 0.452452  0.043043  0.021021  0.483483
+ 0.188188  0.042042  0.670671  0.099099
+ 0.177177  0.236236  0.544545  0.042042
+ 0.172172  0.031031  0.276276  0.520521
+ 0.000000  0.000000  0.977978  0.022022
+ 0.061061  0.081081  0.773774  0.084084
+ 0.148148  0.559560  0.111111  0.181181
+ 0.330330  0.229229  0.269269  0.171171
+ 0.256256  0.268268  0.354354  0.121121
+
+Tomtom motif matches (27):
+MA0139.1 (CTCF), CTCF_full, Hic1_DBD_1, MA0461.1 (Atoh1), MA0154.2 (EBF1), UP00098_2 (Rfx3_secondary), MA0155.1 (INSM1), RARG_DBD_3, UP00006_1 (Zic3_primary), UP00102_1 (Zic1_primary), MA0500.1 (Myog), Tcfap2a_DBD_3, FIGLA_DBD, CREB3L1_DBD_2, TFAP2C_DBD_3, CREB3L1_DBD_3, CREB3L1_full_1, UP00057_1 (Zic2_primary), MA0116.1 (Zfp423), TFAP2A_DBD_6, MA0104.3 (Mycn), MA0521.1 (Tcf12), MA0597.1 (THAP1), TFAP2A_DBD_3, UP00220_1 (Nkx1-1_3856.3), MA0079.3 (SP1), UP00123_1 (Hlxb9_3422.1)
